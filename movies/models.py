@@ -20,4 +20,4 @@ class Movie(models.Model):
 		return self.title
 
 	class Meta:
-		ordering = ('name',)
+		ordering = ('title',)
