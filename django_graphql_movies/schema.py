@@ -1,3 +1,3 @@
 import graphene
-from movies.schema import Query
+from movies.schema import Query, Mutator
 
