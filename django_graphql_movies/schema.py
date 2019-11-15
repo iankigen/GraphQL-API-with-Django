@@ -10,4 +10,4 @@ class Mutation(movies.schema.Mutation, graphene.ObjectType):
 	pass
 
 
-graphene.Schema(query=Query, mutation=Mutation)
+schema = graphene.Schema(query=Query, mutation=Mutation)
