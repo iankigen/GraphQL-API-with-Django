@@ -40,6 +40,10 @@ INSTALLED_APPS = [
 ]
 
 INSTALLED_APPS += [
+    'graphene_django',
+]
+
+INSTALLED_APPS += [
     'movies',
 ]
 
