@@ -131,3 +131,10 @@ class Query(ObjectType):
 
 	def resolve_actors(self, info, **kwargs):
 		return Actor.objects.all()
+
+
+class Mutator(graphene.ObjectType):
+	create_actor = CreateActor.Field()
+	create_movie = CreateMovie.Field()
+	update_actor = UpdateActor.Field()
+	update_movie = UpdateMovie.Field()
